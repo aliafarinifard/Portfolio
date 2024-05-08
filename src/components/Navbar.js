@@ -1,28 +1,11 @@
 import Link from "next/link"
 import Logo from "./Logo"
-import { useRouter } from "next/router";
 import { GithubIcon, LinkedInIcon } from "./Icons";
 import { motion } from "framer-motion";
+import CustomLink from "./CustomLink";
 
 
 const MotionLink = motion(Link);
-
-
-const CustomLink = ({ href, title, className = "" }) => {
-
-    const router = useRouter();
-    console.log('router>>>>', router);
-
-    return (
-        <Link href={href} className={`${className} relative group`}>
-            {title}
-
-            <span
-                className={`h-[2px] inline-block bg-dark absolute left-0 -bottom-1 group-hover:w-full transition-[width] ease duration-300 ${router.asPath === href ? 'w-full' : 'w-0'}`}
-            >&nbsp;</span>
-        </Link>
-    )
-}
 
 
 const Navbar = () => {
@@ -39,23 +22,23 @@ const Navbar = () => {
 
             <nav className="flex items-center justify-center flex-wrap">
                 <MotionLink
-                    href={'https://github.com/aliafarinifard'}
+                    href={'https://linkedin.com/in/ali-afarinifard'}
                     target="_blank"
                     whileHover={{ y: -2 }}
                     whileTap={{ scale: 0.9 }}
                     className="w-6 mr-3"
                 >
-                    <GithubIcon />
+                    <LinkedInIcon />
                 </MotionLink>
 
                 <MotionLink
-                    href={'https://linkedin.com/in/ali-afarinifard'}
+                    href={'https://github.com/aliafarinifard'}
                     target="_blank"
                     whileHover={{ y: -2 }}
                     whileTap={{ scale: 0.9 }}
                     className="w-6 ml-3"
                 >
-                    <LinkedInIcon />
+                    <GithubIcon />
                 </MotionLink>
             </nav>
 
