@@ -2,7 +2,9 @@
 const InfoBox = ({ icon, title, text }) => {
     return (
         <div className="flex items-center gap-2">
-            {icon}
+            <div>
+                {icon}
+            </div>
 
             <div className="flex flex-col">
                 <div className="font-medium text-sm">{title}</div>

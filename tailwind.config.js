@@ -27,7 +27,8 @@ module.exports = {
         }
       },
       animation: {
-        'profileAnimate': 'profileAnimate 8s ease-in-out infinite 1s'
+        'profileAnimate': 'profileAnimate 8s ease-in-out infinite 1s',
+        'spin-slow': 'spin 10s linear infinite'
       }
     },
   },
