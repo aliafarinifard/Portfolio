@@ -18,7 +18,7 @@ export default function Home() {
       </Head>
 
       <main
-        className="flex items-center text-dark w-full min-h-screen"
+        className="flex items-center text-dark w-full min-h-screen dark:text-light"
       >
         <Layout className='pt-0'>
 
@@ -41,7 +41,7 @@ export default function Home() {
                   href={'/ali_afarinifard_resume.pdf'}
                   target="_blank"
                   download={true}
-                  className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark transition-[background] ease duration-500"
+                  className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark transition-[background] ease duration-500 dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light hover:dark:border-light"
                 >
                   Resume
                   <LinkArrow className={"w-6 ml-1"} />
@@ -50,7 +50,7 @@ export default function Home() {
                 <CustomLink
                   href={'mailto:aliafarinifard@outlook.com'}
                   title={"Contact"}
-                  className="text-lg font-[600] capitalize text-dark"
+                  className="text-lg font-[600] capitalize text-dark dark:text-light"
                 />
               </div>
             </div>

@@ -23,7 +23,7 @@ const Education = () => {
             >
 
                 <motion.div
-                    className="absolute left-9 top-0 w-[4px] h-full bg-dark origin-top"
+                    className="absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-light"
                     style={{ scaleY: scrollYProgress }}
                 />
 

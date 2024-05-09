@@ -18,10 +18,10 @@ const Details = ({ position, company, time, address, work }) => {
                 transition={{duration: 0.5, type: "spring"}}
             >
                 <h3 className="capitalize font-bold text-2xl">
-                    {position}&nbsp;<span className="text-primary capitalize">@{company}</span>
+                    {position}&nbsp;<span className="text-primary capitalize dark:text-primaryDark">@{company}</span>
                 </h3>
 
-                <span className="capitalize font-medium text-dark/75">
+                <span className="capitalize font-medium text-dark/75 dark:text-light/75">
                     {time} | {address}
                 </span>
 

@@ -11,10 +11,10 @@ const Skills = () => {
             </h2>
 
             <div
-                className="w-full h-screen relative flex items-center justify-center rounded-full bg-circularLight"
+                className="w-full h-screen relative flex items-center justify-center rounded-full bg-circularLight dark:bg-circularDark"
             >
                 <motion.dev
-                    className='flex items-center justify-center rounded-full font-semibold bg-dark text-light p-8 shadow-dark cursor-pointer'
+                    className='flex items-center justify-center rounded-full font-semibold bg-dark text-light p-8 shadow-dark cursor-pointer dark:text-dark dark:bg-light'
                     whileHover={{scale:1.05}}
                 >
                     Web
