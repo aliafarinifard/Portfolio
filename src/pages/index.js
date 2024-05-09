@@ -26,7 +26,13 @@ export default function Home() {
             className="flex items-center justify-between w-full gap-14"
           >
             <div className="w-1/2">
-              <Image src={ProfilePic} alt="ADev" className="animate-profileAnimate" />
+              <Image
+                src={ProfilePic}
+                alt="ADev"
+                className="animate-profileAnimate"
+                priority
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
+              />
             </div>
 
             <div className="w-1/2 flex flex-col items-center self-center">
