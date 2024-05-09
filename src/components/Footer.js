@@ -15,7 +15,7 @@ const Footer = () => {
                 </Link>
 
                 <Link href={'tel:0098-993-149-8394'}>
-                    <InfoBox icon={<WhatsAppIcon className='w-[2.07rem] h-[2.07rem]' />} title="Whatsapp | Telegram" text="0098-993-149-8394" />
+                    <InfoBox icon={<WhatsAppIcon className='w-8 h-8' />} title="Whatsapp | Telegram" text="0098-993-149-8394" />
                 </Link>
 
                 <p className="font-medium">

@@ -29,6 +29,9 @@ module.exports = {
       animation: {
         'profileAnimate': 'profileAnimate 8s ease-in-out infinite 1s',
         'spin-slow': 'spin 10s linear infinite'
+      },
+      backgroundImage: {
+        circularLight: 'repeating-radial-gradient(rgba(0,0,0,0.4) 2px, #f5f5f5 5px, #f5f5f5 100px);'
       }
     },
   },

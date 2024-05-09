@@ -26,11 +26,11 @@ export default function Home() {
             className="flex items-center justify-between w-full gap-14"
           >
             <div className="w-1/2">
-                <Image src={ProfilePic} alt="ADev" className="animate-profileAnimate" />
+              <Image src={ProfilePic} alt="ADev" className="animate-profileAnimate" />
             </div>
 
             <div className="w-1/2 flex flex-col items-center self-center">
-              <AnimatedText text="Ali Afarinifard | Front End Developer | Next.js, React.js" className="!text-5xl !text-left" />
+              <AnimatedText text="Ali Afarinifard | Front End Developer | Next.js, React.js" className="!text-5xl !text-left !leading-[3.8rem]" />
 
               <p className="my-4 text-base font-medium">
                 I'm a Front-End developer with a strong background in JavaScript, React, and Next, with about 3 years of experience. Development of custom web pages. Using Current technologies and libraries of the labor field.
