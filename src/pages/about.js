@@ -6,6 +6,8 @@ import ProfilePic from '../../public/images/profile/ali_afarinifard_about.jpg'
 import { useEffect, useRef } from "react"
 import { useInView, useMotionValue, useSpring } from "framer-motion"
 import Skills from "@/components/Skills"
+import Experience from "@/components/Experience"
+import Education from "@/components/Education"
 
 
 
@@ -104,6 +106,8 @@ const about = () => {
                     </div>
 
                     <Skills />
+                    <Experience />
+                    <Education />
                 </Layout>
             </main>
         </>
