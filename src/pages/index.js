@@ -7,6 +7,7 @@ import Link from "next/link";
 import { LinkArrow } from "@/components/Icons";
 import CustomLink from "@/components/CustomLink";
 import HireMe from "@/components/HireMe";
+import TransitionEffect from "@/components/TransitionEffect";
 
 
 export default function Home() {
@@ -16,6 +17,8 @@ export default function Home() {
         <title>Ali Afarinifard Dev</title>
         <meta name="description" content="Ali Afarinifard | Front End Developer (Next.js, React.js)" />
       </Head>
+
+      <TransitionEffect />
 
       <main
         className="flex items-center text-dark w-full min-h-screen dark:text-light"
