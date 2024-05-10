@@ -8,7 +8,7 @@ const Footer = () => {
         <div
             className="w-full border-t-2 border-solid border-[#e6e6e6] font-medium text-lg dark:text-light dark:border-[#3f3f3f]"
         >
-            <Layout className='py-3 flex items-center justify-between'>
+            <Layout className='!py-3 flex items-center justify-between lg:flex-col lg:gap-5 lg:items-stretch'>
 
                 <Link href={'mailto:aliafarinifard@outlook.com'}>
                     <InfoBox icon={<EmailIcon className='w-8 h-8 fill-[#525252] dark:fill-light' />} title="Email" text="aliafarinifard@outlook.com" />
@@ -19,7 +19,7 @@ const Footer = () => {
                 </Link>
 
                 <p className="font-medium">
-                    Ali Afarinifard | <span className="font-bold">Front End</span> Developer
+                    Ali Afarinifard | <span className="font-bold underline">Front End</span> Developer
                 </p>
 
             </Layout>
