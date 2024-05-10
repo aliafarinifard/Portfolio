@@ -1,5 +1,9 @@
-import Link from 'next/link'
 import React from 'react'
+
+// ** Next
+import Link from 'next/link'
+
+// ** Framer Motion
 import { motion } from 'framer-motion'
 
 const MotionLink = motion(Link);

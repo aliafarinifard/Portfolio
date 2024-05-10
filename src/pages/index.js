@@ -1,11 +1,16 @@
-import Layout from "@/components/Layout";
+// ** Next
 import Head from "next/head";
 import Image from "next/image";
-import ProfilePic from '../../public/images/profile/ali_afarinifard.png'
-import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
+
+// ** Image
+import ProfilePic from '../../public/images/profile/ali_afarinifard.png'
+
+// ** Components
+import Layout from "@/components/Layout";
 import { LinkArrow } from "@/components/Icons";
 import CustomLink from "@/components/CustomLink";
+import AnimatedText from "@/components/AnimatedText";
 import HireMe from "@/components/HireMe";
 import TransitionEffect from "@/components/TransitionEffect";
 

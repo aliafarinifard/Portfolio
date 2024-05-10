@@ -1,6 +1,10 @@
 import { useRef } from "react";
-import Details from "./Details"
+
+// ** Framer Motion
 import { motion, useScroll } from "framer-motion"
+
+// ** Components
+import Details from "./Details"
 
 const Experience = () => {
 
@@ -31,7 +35,7 @@ const Experience = () => {
                     className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2"
                 >
                     <Details
-                        position="Front Developer"
+                        position="Front End Developer"
                         company="Asia Startup"
                         time="October 2023 - January 2024"
                         address="Tehran, Iran"
@@ -39,7 +43,7 @@ const Experience = () => {
                     />
 
                     <Details
-                        position="Front Developer"
+                        position="Front End Developer"
                         company="Freelancer"
                         time="august 2020 - Present"
                         address="Iran"

@@ -1,10 +1,17 @@
+// ** Style
 import "@/styles/globals.css";
+
+// ** Next
 import { Montserrat } from "next/font/google";
 import Head from "next/head";
+import { useRouter } from "next/router";
+
+// ** Components
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+
+// ** Framer Motion
 import { AnimatePresence } from "framer-motion";
-import { useRouter } from "next/router";
 
 
 const montserrat = Montserrat({

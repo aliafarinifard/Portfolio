@@ -1,10 +1,18 @@
-import AnimatedText from "@/components/AnimatedText"
-import Layout from "@/components/Layout"
+import { useEffect, useRef } from "react"
+
+// ** Next
 import Head from "next/head"
 import Image from "next/image"
+
+// ** Image
 import ProfilePic from '../../public/images/profile/ali_afarinifard_about.jpg'
-import { useEffect, useRef } from "react"
+
+// ** Framer Motion
 import { useInView, useMotionValue, useSpring } from "framer-motion"
+
+// ** Components
+import AnimatedText from "@/components/AnimatedText"
+import Layout from "@/components/Layout"
 import Skills from "@/components/Skills"
 import Experience from "@/components/Experience"
 import Education from "@/components/Education"

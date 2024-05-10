@@ -1,5 +1,9 @@
 import { useRef } from "react"
+
+// ** Components
 import LiIcon from "./LiIcon"
+
+// ** Framer Motion
 import { motion } from "framer-motion";
 
 const EducationBox = ({ type, time, place }) => {

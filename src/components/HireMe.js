@@ -1,4 +1,7 @@
+// ** Next
 import Link from "next/link"
+
+// ** Icons
 import { CircularText } from "./Icons"
 
 const HireMe = () => {

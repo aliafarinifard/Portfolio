@@ -1,4 +1,7 @@
+// ** Framer Motion
 import { motion } from "framer-motion"
+
+// ** Components
 import Skill from "./Skill"
 
 const Skills = () => {
@@ -20,16 +23,16 @@ const Skills = () => {
                     Web
                 </motion.dev>
 
-                <Skill name="NextJS" x={'22vw'} y={'6vw'} />
-                <Skill name="MUI" x={'-31vw'} y={'11vw'} />
-                <Skill name="HTML" x={'-26vw'} y={'-13vw'} />
-                <Skill name="ReactJS" x={'0vw'} y={'13vw'} />
-                <Skill name="SASS" x={'22vw'} y={'-18vw'} />
-                <Skill name="Tailwind CSS" x={'-10vw'} y={'-18vw'} />
-                <Skill name="CSS" x={'36vw'} y={'-4vw'} />
-                <Skill name="Figma" x={'9vw'} y={'-20vw'} />
-                <Skill name="TypeScript" x={'-20vw'} y={'2vw'} />
-                <Skill name="JavaScript" x={'7vw'} y={'-11vw'} />
+                <Skill name="NextJS" x={'-24vw'} y={'2vw'} />
+                <Skill name="MUI" x={'0vw'} y={'10vw'} />
+                <Skill name="HTML" x={'-28vw'} y={'15vw'} />
+                <Skill name="ReactJS" x={'-25vw'} y={'-10vw'} />
+                <Skill name="SASS" x={'12vw'} y={'-12vw'} />
+                <Skill name="Tailwind CSS" x={'14vw'} y={'17vw'} />
+                <Skill name="CSS" x={'-6vw'} y={'-9vw'} />
+                <Skill name="Figma" x={'0vw'} y={'-18vw'} />
+                <Skill name="TypeScript" x={'20vw'} y={'4vw'} />
+                <Skill name="JavaScript" x={'29vw'} y={'-6vw'} />
             </div>
         </>
     )

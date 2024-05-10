@@ -1,4 +1,3 @@
-
 const InfoBox = ({ icon, title, text }) => {
     return (
         <>

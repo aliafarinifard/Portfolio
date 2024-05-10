@@ -1,6 +1,10 @@
 import { useRef } from "react"
-import LiIcon from "./LiIcon"
+
+// ** Framer Motion
 import { motion } from "framer-motion";
+
+// ** Components
+import LiIcon from "./LiIcon"
 
 const Details = ({ position, company, time, address, work }) => {
 

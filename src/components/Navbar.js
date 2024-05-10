@@ -1,11 +1,23 @@
-import Link from "next/link"
-import Logo from "./Logo"
-import { GithubIcon, LinkedInIcon, MoonIcon, SunIcon } from "./Icons";
-import { motion } from "framer-motion";
-import CustomLink from "./CustomLink";
-import useThemeSwitcher from "@/hooks/useThemeSwitcher";
 import { useState } from "react";
+
+// ** Next
+import Link from "next/link"
+
+// ** Components
+import Logo from "./Logo"
+
+// ** Icons
+import { GithubIcon, LinkedInIcon, MoonIcon, SunIcon } from "./Icons";
+
+// ** Framer Motion
+import { motion } from "framer-motion";
+
+// ** Components
+import CustomLink from "./CustomLink";
 import CustomMobileLink from "./CustomMobileLink";
+
+// ** Hooks
+import useThemeSwitcher from "@/hooks/useThemeSwitcher";
 
 
 const MotionLink = motion(Link);

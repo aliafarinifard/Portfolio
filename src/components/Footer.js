@@ -1,5 +1,10 @@
+// ** Next
 import Link from "next/link"
+
+// ** Icons
 import { EmailIcon, WhatsAppIcon } from "./Icons"
+
+// ** Components
 import InfoBox from "./InfoBox"
 import Layout from "./Layout"
 

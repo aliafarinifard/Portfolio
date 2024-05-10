@@ -1,5 +1,9 @@
 import { useRef } from "react";
+
+// ** Framer Motion
 import { motion, useScroll } from "framer-motion"
+
+// ** Components
 import EducationBox from "./EducationBox";
 
 const Education = () => {
