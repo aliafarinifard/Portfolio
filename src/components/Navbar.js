@@ -39,7 +39,7 @@ const Navbar = () => {
 
             <button className="flex-col justify-center items-center hidden md:flex" onClick={handleClickMenu}>
                 <span
-                    className={`bg-dark dark:bg-light block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm -translate-y-0.5 ${isOpen ? "rotate-45 translate-y-[0.5rem]" : "-translate-y-0.5"}`}
+                    className={`bg-dark dark:bg-light block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm -translate-y-0.5 ${isOpen ? "rotate-45 translate-y-[0.64rem]" : "-translate-y-0.5"}`}
                 ></span>
 
                 <span
