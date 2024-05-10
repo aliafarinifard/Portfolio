@@ -74,7 +74,7 @@ const about = () => {
                             </p>
 
                             <p className="font-medium my-4">
-                                I am always looking for new and innovative ways to bring my clients' visions to life. I bring my commitment to design excellence and user-centered thinking to every project I work on. I look forward to the opportunity to bring my skills and passion to your next project.
+                                I am always looking for new and innovative ways to bring my client's visions to life. I bring my commitment to design excellence and user-centered thinking to every project I work on. I look forward to the opportunity to bring my skills and passion to your next project.
                             </p>
 
                             <p className="font-medium">
