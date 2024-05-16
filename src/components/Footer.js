@@ -7,6 +7,7 @@ import { EmailIcon, WhatsAppIcon } from "./Icons"
 // ** Components
 import InfoBox from "./InfoBox"
 import Layout from "./Layout"
+import DivBorder from "./DivBorder"
 
 const Footer = () => {
     return (
@@ -19,11 +20,15 @@ const Footer = () => {
                     <InfoBox icon={<EmailIcon className='w-8 h-8 fill-[#525252] dark:fill-light' />} title="Email" text="aliafarinifard@outlook.com" />
                 </Link>
 
+                <DivBorder />
+
                 <Link href={'tel:0098-993-149-8394'}>
                     <InfoBox icon={<WhatsAppIcon className='w-8 h-8 fill-[#525252] dark:fill-light' />} title="Whatsapp | Telegram" text="0098-993-149-8394" />
                 </Link>
 
-                <p className="font-medium">
+                <DivBorder />
+
+                <p className="font-medium xs:text-[1rem]">
                     Ali Afarinifard | <span className="font-bold underline">Front End</span> Developer
                 </p>
 
