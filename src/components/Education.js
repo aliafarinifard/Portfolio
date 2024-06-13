@@ -36,8 +36,8 @@ const Education = () => {
                 >
                     <EducationBox 
                         type="B.Sc Computer Software Engineer"
-                        place="Qazvin Islamic Azad University Qazvin - Iran"
-                        time="September 2020 - July 2023"
+                        place="Qazvin Islamic Azad University | Qazvin - Iran"
+                        time="September 2020 - Present"
                     />
                     
                     <EducationBox 

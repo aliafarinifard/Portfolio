@@ -28,7 +28,7 @@ const Experience = () => {
 
                 <motion.div
                     className="absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-light md:w-[2px] md:left-[30px] xs:left-[20px]"
-                    style={{scaleY: scrollYProgress}}
+                    style={{ scaleY: scrollYProgress }}
                 />
 
                 <ul
@@ -37,9 +37,10 @@ const Experience = () => {
                     <Details
                         position="Front End Developer"
                         company="Asia Startup"
-                        time="October 2023 - January 2024"
+                        time="November 2023 - January 2024"
                         address="Tehran, Iran"
-                        work="Worked on a team responsible for developing new features including Panel and Admin Dashboard Planned, developed, tested, and maintained responsive websites and web applications. Working with TypeScript, MUI, Ant Design, TailwindCSS and REST api. Implemented Medical E-Commerce Dashboard Panel with React. Implemented Medical website with Next.js."
+                        work="Planned, developed, tested, and maintained responsive websites and web applications. Working with TypeScript, Material UI (MUI), Ant Design, TailwindCSS, REST API, React Query. Implemented ecommerce Dashboard Panel with React. Implemented website with Next.js. Collaborated effectively with web designer, back-end developers, and UX designers to ensure the
+                        seamless design, development testing, and improvement of web products. Built reusable components to improve development efficiency across multiple projects."
                     />
 
                     <Details
@@ -47,7 +48,8 @@ const Experience = () => {
                         company="Freelancer"
                         time="august 2020 - Present"
                         address="Iran"
-                        work="Developing, optimizing and maintaining the websites and applications with Next JS, React JS, Typescript to meet my clients needs and goals. build a web application from start to finish."
+                        work="Developing, optimizing and maintaining the websites and applications with Next.js, React.js,
+                        Typescript, TailwindCSS to meet my clients needs and goals. Presence and interaction with team members to developing websites. Collaborated with clients to meet specific project requirements and deliver high-quality products."
                     />
                 </ul>
 
